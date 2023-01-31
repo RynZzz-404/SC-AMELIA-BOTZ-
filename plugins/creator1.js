@@ -20,39 +20,39 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : PutraModz
-${htjava} *✉️ Nama RL* : HAMBA ALLAH
+${htjava} *💌 NamaBot* : Xavier-MD
+${htjava} *✉️ Nama Owner* : RYAN Aditya Pratama
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : 18
+${htjava} *⏰ Tanggal lahir* : 12 Agustus 
+${htjava} *🎨 Umur* : 23 otw 24
 ${htjava} *🧮 Kelas* : SUDAH TAMAT
-${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP "MODDER WHATSAPP"
-${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
-${htjava} *🗺️ Tinggal* : Indo, Kuningan, Jawa Barat
-${htjava} *❤️ Pacar* : AMELIA PUTRI SEPTIANY 
+${htjava} *🧩 Hobby* : Turu - Ngoding - Ngopi
+${htjava} *💬 Sifat* : Idiot - G Peka - Sok Cool
+${htjava} *🗺️ Tinggal* : Indo, Jawa Barat, Bandung, Cimahi
+${htjava} *❤️ My Girlfriend* : Dewi Shofi Anzani ❤️
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
 •·––––––––––––––––––––––––––·•
 `
-  let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
+  let teks = 'Pilih dibawah kak ! '
 const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
-	{title: "📱 • Nomor Owner", rowId: ".owner nomor"},
-	{title: "📱 • Pengembang", rowId: ".own"},
-	{title: "📱 • Creator", rowId: ".creator"},
-	{title: "🎨 • Biodata", rowId: ".owner bio"},
-	{title: "🌎 • Script", rowId: ".sc"},
+	{title: "Nomor Owner", rowId: ".owner nomor"},
+	{title: "Pengembang", rowId: ".own"},
+	{title: "Creator", rowId: ".creator"},
+	{title: "Biodata", rowId: ".owner bio"},
+	{title: "Script", rowId: ".sc"},
 	]
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
 	rows: [
-	    {title: "💹 • Donasi", rowId: ".donasi"},
-	{title: "🔖 • Sewa", rowId: ".sewa"},
-	{title: "🌟 • Buy Premium", rowId: ".premium"},
+	    {title: "Donasi", rowId: ".donasi"},
+	{title: "Sewa", rowId: ".sewa"},
+	{title: "Buy Premium", rowId: ".premium"},
 	]
   },
 ]
